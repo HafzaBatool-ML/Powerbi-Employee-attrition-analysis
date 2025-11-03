@@ -2,11 +2,11 @@
 
 This Power BI project analyzes employee attrition (turnover) to identify key factors and high-risk departments. The goal is to provide actionable insights for the HR department to help improve employee retention.
 
-![Welcome Page](image_e8530b.png)
+![Welcome Page](Welcome%20Page.jpeg)
 
 ---
 
-##  Data Cleaning and Preparation
+## Data Cleaning and Preparation
 
 Before analysis, the raw data was cleaned and transformed using **Power Query** in Power BI. Key steps included:
 
@@ -22,13 +22,21 @@ Before analysis, the raw data was cleaned and transformed using **Power Query** 
 
 ---
 
-## 📈 Dashboard 
+## 📈 Dashboard & Key Insights
 
 The final report includes an overall summary dashboard, detailed deep dives for each department, and an interactive decomposition tree to explore the root causes of attrition.
 
+### Key Findings from the Analysis
+
+![Key Insights](image_e8016d.jpg)
+
+* **High-Risk Departments:** **Sales** (20.63%) and **Human Resources** (19.05%) departments experience the highest attrition rates.
+* **Demographic Factors:** Employees who are **younger**, **single**, have **shorter tenures**, and **lower salaries** are more likely to leave.
+* **Work-Life Factors:** Employees living **farther from the workplace** and those with **low job satisfaction** tend to show higher attrition.
+
 ---
 
-## 📊 Report Pages & Screenshots
+##  Report Pages & Screenshots
 
 Here is a breakdown of the different pages in the report.
 
@@ -59,27 +67,8 @@ This department has the largest number of employees (961) but a relatively lower
 ![R&D Dashboard - Page 2](image_e800ee.jpg)
 
 ### 5. Human Resources Deep Dive
+
 While a small department (63 employees), HR has the second-highest attrition rate at 19.05%.
-
-![HR Dashboard - Page 1](image_e8010c.jpg)
-![HR Dashboard - Page 2](image_e8014f.jpg)
-
-### Key Findings from the Analysis
-
-![Key Insights](image_e8016d.jpg)
-
-* **High-Risk Departments:** **Sales** (20.63%) and **Human Resources** (19.05%) departments experience the highest attrition rates.
-* **Demographic Factors:** Employees who are **younger**, **single**, have **shorter tenures**, and **lower salaries** are more likely to leave.
-* **Work-Life Factors:** Employees living **farther from the workplace** and those with **low job satisfaction** tend to show higher attrition.
-
-
-
-
-
-
-
-
-
 
 
 ![HR Dashboard - Page 1](image_e8010c.jpg)
