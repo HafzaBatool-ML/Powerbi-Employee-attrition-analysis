@@ -1,8 +1,8 @@
 # HR Attrition Analytics Dashboard
 
-This Power BI project analyzes employee attrition (turnover) to identify key factors and high-risk departments. The goal is to provide actionable insights for the HR department to help improve employee retention.
+This Power BI project analyzes employee attrition (turnover) to identify key factors and high-risk departments. The goal is to provide actionable insights for the HR department to help improve employee retention. You Can  see in the image 
 
-![Welcome Page](Welcome%20Page.jpeg)
+![Welcome Page]
 
 ---
 
