@@ -2,7 +2,7 @@
 
 A Power BI project that explores **employee attrition (turnover)** to uncover key factors, high-risk departments, and actionable insights to improve employee retention.  
 
-![Welcome Page](Welcome%20Page.jpeg)
+![Welcome Page](https://github.com/HafzaBatool-ML/Powerbi-Employee-attrition-analysis/blob/main/Attrition%20Ananlysis/Welcome%20Page.jpeg)
 
 ---
 
@@ -48,7 +48,7 @@ The Power BI report includes:
 
 ### 🔍 **Key Findings**  
 
-![Key Insights](Key%20Insights.jpeg)
+![Key Insights](https://github.com/HafzaBatool-ML/Powerbi-Employee-attrition-analysis/blob/main/Attrition%20Ananlysis/Key%20Insights.jpeg)
 
 | Insight Category | Observation | Impact |
 |:-----------------|:-------------|:--------|
@@ -64,7 +64,7 @@ The Power BI report includes:
 Provides an overview of 1,470 employees and the overall attrition rate (16.12%).  
 Includes KPIs, departmental treemap, and job role breakdown.
 
-![Main Dashboard](Main%20Dashboard.jpeg)
+![Main Dashboard](https://github.com/HafzaBatool-ML/Powerbi-Employee-attrition-analysis/blob/main/Attrition%20Ananlysis/Main%20Dashboard.jpeg)
 
 ---
 
@@ -72,7 +72,7 @@ Includes KPIs, departmental treemap, and job role breakdown.
 Interactive exploration of attrition rate by dimensions such as department, role, and satisfaction level.  
 The **Sales → Sales Representative → Entry Level** path shows **42.11% attrition**, the highest risk group.
 
-![Decomposition Tree](Decomposition%20Tree.jpeg)
+![Decomposition Tree](https://github.com/HafzaBatool-ML/Powerbi-Employee-attrition-analysis/blob/main/Attrition%20Ananlysis/Decomposition%20Tree.jpeg)
 
 ---
 
@@ -80,8 +80,8 @@ The **Sales → Sales Representative → Entry Level** path shows **42.11% attri
 Department with the highest attrition (20.63%) among 446 employees.  
 Explores patterns by age, satisfaction, and monthly income.
 
-![Sales Dashboard - Page 1](Sales%20Dashboard%20-%20Page%201.jpeg)  
-![Sales Dashboard - Page 2](Sales%20Dashboard%20-%20Page%202.jpeg)
+![Sales Dashboard - Page 1](https://github.com/HafzaBatool-ML/Powerbi-Employee-attrition-analysis/blob/main/Attrition%20Ananlysis/Sales%20Dashboard%20-%20Page%201.jpeg)  
+![Sales Dashboard - Page 2](https://github.com/HafzaBatool-ML/Powerbi-Employee-attrition-analysis/blob/main/Attrition%20Ananlysis/Sales%20Dashboard%20-%20Page%202.jpeg)
 
 ---
 
@@ -89,8 +89,8 @@ Explores patterns by age, satisfaction, and monthly income.
 Largest department (961 employees) but relatively lower attrition (13.84%).  
 Focuses on employee tenure and engagement levels.
 
-![R&D Dashboard - Page 1](R%26D%20Dashboard%20-%20Page%201.jpeg)  
-![R&D Dashboard - Page 2](R%26D%20Dashboard%20-%20Page%202.jpeg)
+![R&D Dashboard - Page 1](https://github.com/HafzaBatool-ML/Powerbi-Employee-attrition-analysis/blob/main/Attrition%20Ananlysis/R%26D%20Dashboard%20-%20Page%201.jpeg)  
+![R&D Dashboard - Page 2](https://github.com/HafzaBatool-ML/Powerbi-Employee-attrition-analysis/blob/main/Attrition%20Ananlysis/R%26D%20Dashboard%20-%20Page%202.jpeg)
 
 ---
 
@@ -98,14 +98,14 @@ Focuses on employee tenure and engagement levels.
 A smaller team (63 employees) yet second-highest attrition (19.05%).  
 Explores satisfaction and promotion rates.
 
-![HR Dashboard - Page 1](HR%20Dashboard%20-%20Page%201.jpeg)  
-![HR Dashboard - Page 2](HR%20Dashboard%20-%20Page%202.jpeg)
+![HR Dashboard - Page 1](https://github.com/HafzaBatool-ML/Powerbi-Employee-attrition-analysis/blob/main/Attrition%20Ananlysis/HR%20Dashboard%20-%20Page%201.jpeg)  
+![HR Dashboard - Page 2](https://github.com/HafzaBatool-ML/Powerbi-Employee-attrition-analysis/blob/main/Attrition%20Ananlysis/HR%20Dashboard%20-%20Page%202.jpeg)
 
 ---
 
 ##  Project File  
 
-🔗 **Power BI File:** [`Data Cleaning.pbix`](Data%20Cleaning.pbix)
+🔗 **Power BI File:** [`Data Cleaning.pbix`](https://github.com/HafzaBatool-ML/Powerbi-Employee-attrition-analysis/blob/main/Attrition%20Ananlysis/Data%20Cleaning.pbix)
 
 ---
 
