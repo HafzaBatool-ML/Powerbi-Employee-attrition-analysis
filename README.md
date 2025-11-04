@@ -13,6 +13,17 @@ It combines **Power Query data cleaning**, **interactive dashboards**, and **dri
 
 ---
 
+##  Dataset Overview
+
+This project uses the **HR Analytics Dataset** from Kaggle, containing details of **1,470 employees** across departments.  
+The dataset includes information on demographics, job roles, satisfaction levels, income, performance ratings, and attrition status.  
+
+**Key Columns:**  
+- `Age`, `Gender`, `Department`, `JobRole`  
+- `MonthlyIncome`, `DistanceFromHome`, `JobSatisfaction`  
+- `YearsAtCompany`, `Attrition` (Yes/No)
+
+Source: [HR Analytics - Kaggle](https://www.kaggle.com/datasets/saadharoon27/hr-analytics-dataset) 
 ##  Data Cleaning & Preparation  
 
 Performed in **Power Query (Power BI)** to ensure accuracy and consistency.  
