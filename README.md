@@ -24,6 +24,13 @@ The dataset includes information on demographics, job roles, satisfaction levels
 - `YearsAtCompany`, `Attrition` (Yes/No)
 
 Source: [HR Analytics - Kaggle](https://www.kaggle.com/datasets/saadharoon27/hr-analytics-dataset) 
+
+##  Project Architecture 
+
+Data Source → Power Query (Cleaning & Transformation) → Data Model (Relationships, Measures, DAX) → Power BI Dashboards (KPIs, Decomposition Tree, Insights)
+
+
+---
 ##  Data Cleaning & Preparation  
 
 Performed in **Power Query (Power BI)** to ensure accuracy and consistency.  
