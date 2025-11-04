@@ -1,75 +1,142 @@
-# HR Attrition Analytics Dashboard
+#  HR Attrition Analytics Dashboard  
 
-This Power BI project analyzes employee attrition (turnover) to identify key factors and high-risk departments. The goal is to provide actionable insights for the HR department to help improve employee retention. You Can  see in the image 
+A Power BI project that explores **employee attrition (turnover)** to uncover key factors, high-risk departments, and actionable insights to improve employee retention.  
 
-![Welcome Page]
-
----
-
-## Data Cleaning and Preparation
-
-Before analysis, the raw data was cleaned and transformed using **Power Query** in Power BI. Key steps included:
-
-* Handling missing or null values.
-* Correcting data types (e.g., ensuring numerical columns were not stored as text).
-* Removing duplicate entries.
-* **Creating Bins (Groups):** To simplify analysis of continuous data, new categorical columns (bins) were created for:
-    * **Age Groups** (e.g., 'Young Professionals', 'Mid Career', 'Experienced')
-    * **Income Ranges** (e.g., 'Low Income', 'Medium Income', 'High Income')
-    * **Tenure Bins** (e.g., 'Mid Tenure', 'Early Tenure', 'Veterans')
-    * **Job Satisfaction Levels** (e.g., 'Low', 'Medium', 'High', 'Very High')
-    * **Distance From Home** (e.g., 'Near', 'Mid range', 'Far')
+![Welcome Page](Welcome%20Page.jpeg)
 
 ---
 
-## 📈 Dashboard & Key Insights
+##  Project Overview  
 
-The final report includes an overall summary dashboard, detailed deep dives for each department, and an interactive decomposition tree to explore the root causes of attrition.
-
-### Key Findings from the Analysis
-
-![Key Insights](image_e8016d.jpg)
-
-* **High-Risk Departments:** **Sales** (20.63%) and **Human Resources** (19.05%) departments experience the highest attrition rates.
-* **Demographic Factors:** Employees who are **younger**, **single**, have **shorter tenures**, and **lower salaries** are more likely to leave.
-* **Work-Life Factors:** Employees living **farther from the workplace** and those with **low job satisfaction** tend to show higher attrition.
+This analysis provides a **data-driven understanding** of employee turnover patterns within the organization.  
+It combines **Power Query data cleaning**, **interactive dashboards**, and **drill-down visualizations** to help HR teams identify and act upon attrition causes.
 
 ---
 
-##  Report Pages & Screenshots
+##  Data Cleaning & Preparation  
 
-Here is a breakdown of the different pages in the report.
+Performed in **Power Query (Power BI)** to ensure accuracy and consistency.  
 
-### 1. Main Dashboard (Overall View)
+**Key Transformation Steps:**
+-  Removed duplicates & handled missing/null values  
+-  Corrected data types (e.g., ensuring numeric fields were not stored as text)  
+-  Created meaningful categorical **bins** for:
+  - Age Groups → *Young Professionals*, *Mid-Career*, *Experienced*  
+  - Income Ranges → *Low*, *Medium*, *High*  
+  - Tenure Bins → *Early Tenure*, *Mid Tenure*, *Veterans*  
+  - Job Satisfaction → *Low*, *Medium*, *High*, *Very High*  
+  - Distance from Home → *Near*, *Mid Range*, *Far*  
 
-This page provides a high-level summary of the entire company (1,470 employees) and the overall attrition rate (16.12%). It also features a treemap and charts showing attrition by department and job role.
+---
 
-![Main Dashboard](image_e7fdc8.jpg)
+##  Analytical Approach  
 
-### 2. Attrition Analysis (Decomposition Tree)
+| Phase | Objective | Description |
+|:------|:-----------|:------------|
+| **Identification Phase** | Locate high-attrition departments | Identified which departments (Sales, HR, R&D) had the highest attrition rates using aggregated metrics and visuals. |
+| **Investigation Phase** | Diagnose root causes | Explored job-related and demographic factors such as salary, tenure, job satisfaction, and distance from home. |
+| **Insight Phase** | Translate findings into action | Derived HR-specific recommendations for improving retention and employee engagement. |
 
-This interactive visual breaks down the overall attrition rate. The analysis clearly shows that **Sales** > **Sales Representative** > **Entry Level** is the highest-risk path, with a 42.11% attrition rate for that specific group.
+---
 
-![Decomposition Tree](image_e80091.png)
+## 📊 Dashboard & Key Insights  
 
-### 3. Sales Department Deep Dive
+The Power BI report includes:  
+ An **Overall Company Dashboard**  
+**Department-level Dashboards** (Sales, HR, R&D)  
+ An **Interactive Decomposition Tree** for root-cause analysis  
 
-As the department with the highest attrition (20.63%), this dashboard explores the specific factors for its 446 employees.
+### 🔍 **Key Findings**  
 
-![Sales Dashboard - Page 1](image_e800d1.jpg)
-![Sales Dashboard - Page 2](image_e800b4.jpg)
+![Key Insights](Key%20Insights.jpeg)
 
-### 4. Research & Development Deep Dive
+| Insight Category | Observation | Impact |
+|:-----------------|:-------------|:--------|
+|  **Departments** | Sales (20.63%) & HR (19.05%) have the highest attrition rates | Require targeted retention strategies |
+|  **Demographics** | Younger, single employees with shorter tenures and lower salaries are more likely to leave | Indicates early-career disengagement |
+|  **Work-Life Balance** | Employees living farther away and with low job satisfaction show higher turnover | Suggests need for hybrid/flexible options |
 
-This department has the largest number of employees (961) but a relatively lower attrition rate (13.84%).
+---
 
-![R&D Dashboard - Page 1](image_e8012c.jpg)
-![R&D Dashboard - Page 2](image_e800ee.jpg)
+## Report Pages & Screenshots  
 
-### 5. Human Resources Deep Dive
+###  **1. Main Dashboard (Overall Company View)**  
+Provides an overview of 1,470 employees and the overall attrition rate (16.12%).  
+Includes KPIs, departmental treemap, and job role breakdown.
 
-While a small department (63 employees), HR has the second-highest attrition rate at 19.05%.
+![Main Dashboard](Main%20Dashboard.jpeg)
 
+---
 
-![HR Dashboard - Page 1](image_e8010c.jpg)
-![HR Dashboard - Page 2](image_e8014f.jpg)
+### **2. Attrition Analysis (Decomposition Tree)**  
+Interactive exploration of attrition rate by dimensions such as department, role, and satisfaction level.  
+The **Sales → Sales Representative → Entry Level** path shows **42.11% attrition**, the highest risk group.
+
+![Decomposition Tree](Decomposition%20Tree.jpeg)
+
+---
+
+###  **3. Sales Department Deep Dive**  
+Department with the highest attrition (20.63%) among 446 employees.  
+Explores patterns by age, satisfaction, and monthly income.
+
+![Sales Dashboard - Page 1](Sales%20Dashboard%20-%20Page%201.jpeg)  
+![Sales Dashboard - Page 2](Sales%20Dashboard%20-%20Page%202.jpeg)
+
+---
+
+###  **4. Research & Development Deep Dive**  
+Largest department (961 employees) but relatively lower attrition (13.84%).  
+Focuses on employee tenure and engagement levels.
+
+![R&D Dashboard - Page 1](R%26D%20Dashboard%20-%20Page%201.jpeg)  
+![R&D Dashboard - Page 2](R%26D%20Dashboard%20-%20Page%202.jpeg)
+
+---
+
+### **5. Human Resources Deep Dive**  
+A smaller team (63 employees) yet second-highest attrition (19.05%).  
+Explores satisfaction and promotion rates.
+
+![HR Dashboard - Page 1](HR%20Dashboard%20-%20Page%201.jpeg)  
+![HR Dashboard - Page 2](HR%20Dashboard%20-%20Page%202.jpeg)
+
+---
+
+##  Project File  
+
+🔗 **Power BI File:** [`Data Cleaning.pbix`](Data%20Cleaning.pbix)
+
+---
+
+##  Summary of KPIs  
+
+| Metric | Value | Description |
+|:--------|:------|:------------|
+|  **Total Employees** | 1,470 | Company size analyzed |
+|  **Overall Attrition Rate** | 16.12% | Percentage of employees who left |
+|  **Highest Attrition Department** | Sales (20.63%) | Critical turnover zone |
+|  **Second Highest Department** | Human Resources (19.05%) | Needs retention attention |
+|  **Common Factor** | Low income & low satisfaction | Primary driver of exits |
+
+---
+
+## Recommendations  
+
+-  **Flexible Work Options** — for employees living far from the office  
+-  **Engagement Programs** — boost satisfaction among early-career staff  
+-  **Compensation Review** — ensure pay equity and motivation  
+-  **Career Development Plans** — improve retention through growth opportunities  
+
+---
+
+##  Author  
+
+**Hafsa Batool**  
+BS Mathematics | Namal University  
+ *Mianwali, Pakistan*  
+ *Power BI | Data Analytics | HR Insights*  
+
+---
+
+ *If you found this project insightful, give it a star on GitHub!*  
